@@ -1,0 +1,105 @@
+body { 
+    padding: 0;
+    margin: 0; 
+    font-family: "Lato", sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #EB5353;
+    min-width: 320px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    z-index: 5;
+}
+
+.navbar ul{
+    height: 10vh;
+    display: grid; 
+    align-items: center;
+    grid-template-columns: 70% 10% 10%;
+    list-style-type: none;
+    margin: 0;
+    gap: 15px;
+}
+
+.navbar ul li{
+    margin: 0;
+    text-align: right;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    height: 50%;
+}
+
+.grid-box-layout{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 0;
+}
+
+.box-1 {
+    display: block;
+    width: auto;
+    height: 90vh;
+    background-color: #F9D923;
+    margin: 10vh 0 0 0;
+    padding: 2vh;
+    top: 0;
+    position: relative;
+    z-index: 4;
+}
+
+.welcome-text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.welcome-text h1{
+    width: 70vw;
+    font-size: 45px;
+}
+
+.welcome-text p{
+    width: 70vw;
+    font-size: 18px;
+}
+
+
+
+.box-2 {
+    display: block;
+    width: auto;
+    height: 150vh;
+    background-color: #36AE7C;
+    margin: 0;
+    padding: 2vh;
+}
+
+#projects-text{
+    margin: 20vh 12vw 20vh 12vw;
+    width: auto;
+    font-size: 42px;
+    text-align: center;
+    border-bottom: 4px solid black;
+    padding-bottom: 5px;
+}
+
+.box-3 {
+    display: block;
+    width: auto;
+    height: 100vh;
+    background-color: #187498;
+    margin: 0;
+    padding: 2vh; 
+}
