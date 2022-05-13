@@ -72,34 +72,125 @@ body {
 
 .welcome-text p{
     width: 70vw;
-    font-size: 18px;
+    font-size: 25px;
+    color: black;
+    font-weight: 800;
+    font-style: italic;
 }
+
+
 
 
 
 .box-2 {
     display: block;
     width: auto;
-    height: 150vh;
+    height: auto;
     background-color: #36AE7C;
     margin: 0;
     padding: 2vh;
 }
 
+.projects-grid{
+    display: flex;
+    align-items: center ;
+    flex-wrap: wrap;
+    padding: 4% 8%;
+    justify-content: center;
+}
+
+.project-grid-cell{
+    width: 30ch;
+    height: 30ch;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 3ch;
+    text-align: center;
+    aspect-ratio: 1/1;
+}
+
+.project-grid-cell a {
+    text-decoration: none;
+    background-color:transparent;
+}
+
+.project-grid-cell a img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.project-grid-cell a p{
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    background-color: #F9D923;
+    height: 25%;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+
 #projects-text{
-    margin: 20vh 12vw 20vh 12vw;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 10vh auto;
+    text-decoration: underline;
     width: auto;
     font-size: 42px;
-    text-align: center;
-    border-bottom: 4px solid black;
-    padding-bottom: 5px;
+}
+
+#show-ev{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+    font-weight: 650;
+    background-color: #F9D923;
+    height: 70px;
+    width: 200px;
+    margin: 5vh auto 10vh auto;
+    border-radius: 15px;
 }
 
 .box-3 {
     display: block;
     width: auto;
-    height: 100vh;
+    height: auto;
     background-color: #187498;
     margin: 0;
-    padding: 2vh; 
+    padding: 15vh 5vh 20vh 5vh; 
+    text-align: center;
+}
+
+.box-3 h2{
+    color: white;
+    font-size: 75px;
+    font-weight: 650;
+}
+
+.box-3 p{
+    color:black;
+    font-size: 40px;
+}
+
+
+footer{
+    background-color: #187498;
+    height: 15vh;
+    border-top:  7px solid black;
 }
