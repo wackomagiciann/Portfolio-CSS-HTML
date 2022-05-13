@@ -6,7 +6,7 @@ body {
 
 .navbar {
     position: fixed;
-    background-color: #EB5353;
+    background-color: #2F8F9D;
     min-width: 320px;
     width: 100%;
     top: 0;
@@ -49,7 +49,7 @@ body {
     display: block;
     width: auto;
     height: 90vh;
-    background-color: #F9D923;
+    background-color: #3BACB6;
     margin: 10vh 0 0 0;
     padding: 2vh;
     top: 0;
@@ -86,7 +86,7 @@ body {
     display: block;
     width: auto;
     height: auto;
-    background-color: #36AE7C;
+    background-color: #82DBD8;
     margin: 0;
     padding: 2vh;
 }
@@ -95,13 +95,13 @@ body {
     display: flex;
     align-items: center ;
     flex-wrap: wrap;
-    padding: 4% 8%;
+    padding: 4% 0;
     justify-content: center;
 }
 
 .project-grid-cell{
-    width: 30ch;
-    height: 30ch;
+    width: 40ch;
+    height: 40ch;
     justify-content: center;
     align-items: center;
     background-color: transparent;
@@ -131,7 +131,7 @@ body {
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center;
-    background-color: #F9D923;
+    background-color: #B3E8E5;
     height: 25%;
     width: 100%;
     cursor: pointer;
@@ -160,7 +160,7 @@ body {
     color: black;
     font-size: larger;
     font-weight: 650;
-    background-color: #F9D923;
+    background-color: #3BACB6;
     height: 70px;
     width: 200px;
     margin: 5vh auto 10vh auto;
@@ -170,8 +170,8 @@ body {
 .box-3 {
     display: block;
     width: auto;
-    height: auto;
-    background-color: #187498;
+    height: 40vh;
+    background-color: #B3E8E5;
     margin: 0;
     padding: 15vh 5vh 20vh 5vh; 
     text-align: center;
@@ -185,12 +185,40 @@ body {
 
 .box-3 p{
     color:black;
-    font-size: 40px;
+    font-size: 28px;
+    font-weight: 520;
+    margin-bottom: 10vh;
+}
+
+.contact-links{
+    margin: 3vh 0;
+}
+
+.contact-links a {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 3vh;
 }
 
 
 footer{
-    background-color: #187498;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B3E8E5;
     height: 15vh;
-    border-top:  7px solid black;
+    border-top:  7px solid white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+footer p {
+    margin: 0 3vw;
 }
