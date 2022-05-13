@@ -170,10 +170,10 @@ body {
 .box-3 {
     display: block;
     width: auto;
-    height: 40vh;
+    height: 50vh;
     background-color: #B3E8E5;
     margin: 0;
-    padding: 15vh 5vh 20vh 5vh; 
+    padding: 5vh 5vh 20vh 5vh; 
     text-align: center;
 }
 
