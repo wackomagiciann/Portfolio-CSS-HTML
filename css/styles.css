@@ -100,8 +100,9 @@ body {
 }
 
 .project-grid-cell{
-    width: 40ch;
-    height: 40ch;
+    width: 27%;
+    height: 27%;
+    min-width: 20%;
     justify-content: center;
     align-items: center;
     background-color: transparent;
